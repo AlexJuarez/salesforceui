@@ -1,0 +1,8 @@
+[include]
+node_modules/
+src/
+
+[options]
+module.name_mapper.extension='less' -> '<PROJECT_ROOT>/src/lessModule.js.flow'
+module.name_mapper.extension='css' -> '<PROJECT_ROOT>/src/cssModule.js.flow'
+esproposal.class_instance_fields=enable
